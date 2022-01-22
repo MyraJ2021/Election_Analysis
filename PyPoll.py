@@ -45,7 +45,7 @@ with open(file_to_load) as election_data:
 
 # Save the results to our text file.
 with open(file_to_save, "w") as txt_file:
-    # After opening pile, print final vote count to the terminal.
+    # After opening file, print final vote count to the terminal.
     election_results = (
             f"\nElection Results\n"
             f"---------------------------\n"
